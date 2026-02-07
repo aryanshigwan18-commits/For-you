@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Mauu 💗</title>
+
+  <!-- Luxury fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+  <!-- SECTION 1 -->
+  <section class="page active">
+    <p class="title">Heyyy Mauu</p>
+    <p class="text">
+      I made something new I hope avdel tula 😭<br><br>
+      Just scroll slowlyy
+    </p>
+    <div class="petal" onclick="nextPage()"></div>
+  </section>
+
+  <!-- SECTION 2 -->
+  <section class="page">
+    <p class="text">
+      Its been long 5 years of friendship and 3 years of relationship 🧿<br><br>
+      Every meet every moment felt special to both of us<br><br>
+      Thodishi bhandana thodasa rusva fugva which is healthy to build bond more strong 🫂🫶🏻
+    </p>
+    <div class="petal" onclick="nextPage()"></div>
+  </section>
+
+  <!-- SECTION 3 -->
+  <section class="page">
+    <p class="text">
+      Its all started from your proposal hats off to your confidence 😂💗<br><br>
+      Joke aside but promising you your decision won’t feel you regret 🥹❤️
+    </p>
+    <div class="petal" onclick="nextPage()"></div>
+  </section>
+
+  <!-- SECTION 4 -->
+  <section class="page">
+    <p class="soft">Even though you’re my Gf still asking</p>
+    <p class="question">WILL YOU BE MY VALENTINE?</p>
+
+    <div class="buttons">
+      <button class="yes" onclick="showGifts()">Yes</button>
+      <button class="no" onclick="showNo()">No</button>
+    </div>
+
+    <p id="noText" class="no-text hidden">
+      That’s okay… I just wanted you to know how I feel 🤍
+    </p>
+  </section>
+
+  <!-- GIFTS -->
+  <section id="gifts" class="page">
+    <p class="title">For You 💗</p>
+    <div class="gift-box">
+      <div class="gift">🌸</div>
+      <div class="gift">🍫</div>
+      <div class="gift">🚗</div>
+    </div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
